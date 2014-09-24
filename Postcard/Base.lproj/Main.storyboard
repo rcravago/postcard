@@ -64,15 +64,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ip-ZD-2Ny">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="72" width="279" height="62"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejx-cO-uhY">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.056751022450000001" green="0.20896314539999999" blue="0.10138632810000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -81,7 +72,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="142" width="152" height="30"/>
+                                    <rect key="frame" x="16" y="192" width="152" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="sendMailButtonPressed:" destination="Z9x-va-Tqf" eventType="touchUpInside" id="Tzx-Av-BlN"/>
@@ -98,6 +89,30 @@
                                     <rect key="frame" x="16" y="268" width="279" height="30"/>
                                 </variation>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tapir-bairds-costa-rica-stamp-001.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hJm-bc-O47">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="215" y="142" width="80" height="80"/>
+                                </variation>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ip-ZD-2Ny">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="72" width="279" height="62"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e56-Wh-7mz">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="142" width="152" height="21"/>
+                                </variation>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="write name here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oTr-lB-ly7">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -109,30 +124,26 @@
                                     <rect key="frame" x="16" y="230" width="279" height="30"/>
                                 </variation>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tapir-bairds-costa-rica-stamp-001.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hJm-bc-O47">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="215" y="142" width="80" height="80"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="0ip-ZD-2Ny"/>
                                 <exclude reference="Ejx-cO-uhY"/>
                                 <exclude reference="yxB-RM-0l3"/>
-                                <exclude reference="oTr-lB-ly7"/>
                                 <exclude reference="hJm-bc-O47"/>
+                                <exclude reference="0ip-ZD-2Ny"/>
+                                <exclude reference="e56-Wh-7mz"/>
+                                <exclude reference="oTr-lB-ly7"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="0ip-ZD-2Ny"/>
                                 <include reference="Ejx-cO-uhY"/>
                                 <include reference="yxB-RM-0l3"/>
-                                <include reference="oTr-lB-ly7"/>
                                 <include reference="hJm-bc-O47"/>
+                                <include reference="0ip-ZD-2Ny"/>
+                                <include reference="e56-Wh-7mz"/>
+                                <include reference="oTr-lB-ly7"/>
                             </mask>
                         </variation>
                     </view>
@@ -146,8 +157,10 @@
                     </simulatedScreenMetrics>
                     <connections>
                         <outlet property="enterMessageTextField" destination="yxB-RM-0l3" id="mFq-IE-Khf"/>
+                        <outlet property="enterNameTextField" destination="oTr-lB-ly7" id="77i-xU-4ro"/>
                         <outlet property="mailButton" destination="Ejx-cO-uhY" id="Tmn-h4-bvT"/>
                         <outlet property="messageLabel" destination="0ip-ZD-2Ny" id="1YP-sl-bef"/>
+                        <outlet property="nameLabel" destination="e56-Wh-7mz" id="zUW-23-JU3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pX9-1X-ewm" userLabel="First Responder" sceneMemberID="firstResponder"/>
