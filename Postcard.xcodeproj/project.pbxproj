@@ -12,6 +12,11 @@
 		B564E98119D1E0F300DB1585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B564E97F19D1E0F300DB1585 /* Main.storyboard */; };
 		B564E98319D1E0F300DB1585 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B564E98219D1E0F300DB1585 /* Images.xcassets */; };
 		B564E98F19D1E0F400DB1585 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564E98E19D1E0F400DB1585 /* PostcardTests.swift */; };
+		B564E99919D1EA5A00DB1585 /* DSC_0371.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B564E99819D1EA5A00DB1585 /* DSC_0371.jpg */; };
+		B564E99B19D1EF2C00DB1585 /* envelope.svg in Resources */ = {isa = PBXBuildFile; fileRef = B564E99A19D1EF2C00DB1585 /* envelope.svg */; };
+		B564E99D19D1EFC900DB1585 /* envelope.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B564E99C19D1EFC900DB1585 /* envelope.pdf */; };
+		B564E99F19D1F10000DB1585 /* DSC_0383.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B564E99E19D1F10000DB1585 /* DSC_0383.jpg */; };
+		B564E9A119D1F1AA00DB1585 /* tapir-bairds-costa-rica-stamp-001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B564E9A019D1F1AA00DB1585 /* tapir-bairds-costa-rica-stamp-001.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 		B564E98819D1E0F400DB1585 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B564E98D19D1E0F400DB1585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B564E98E19D1E0F400DB1585 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		B564E99819D1EA5A00DB1585 /* DSC_0371.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0371.jpg; sourceTree = "<group>"; };
+		B564E99A19D1EF2C00DB1585 /* envelope.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = envelope.svg; sourceTree = "<group>"; };
+		B564E99C19D1EFC900DB1585 /* envelope.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = envelope.pdf; sourceTree = "<group>"; };
+		B564E99E19D1F10000DB1585 /* DSC_0383.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0383.jpg; sourceTree = "<group>"; };
+		B564E9A019D1F1AA00DB1585 /* tapir-bairds-costa-rica-stamp-001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tapir-bairds-costa-rica-stamp-001.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +97,11 @@
 		B564E97919D1E0F300DB1585 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B564E9A019D1F1AA00DB1585 /* tapir-bairds-costa-rica-stamp-001.jpg */,
+				B564E99E19D1F10000DB1585 /* DSC_0383.jpg */,
+				B564E99C19D1EFC900DB1585 /* envelope.pdf */,
+				B564E99A19D1EF2C00DB1585 /* envelope.svg */,
+				B564E99819D1EA5A00DB1585 /* DSC_0371.jpg */,
 				B564E97A19D1E0F300DB1585 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -189,7 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B564E99D19D1EFC900DB1585 /* envelope.pdf in Resources */,
+				B564E9A119D1F1AA00DB1585 /* tapir-bairds-costa-rica-stamp-001.jpg in Resources */,
+				B564E99B19D1EF2C00DB1585 /* envelope.svg in Resources */,
 				B564E98119D1E0F300DB1585 /* Main.storyboard in Resources */,
+				B564E99919D1EA5A00DB1585 /* DSC_0371.jpg in Resources */,
+				B564E99F19D1F10000DB1585 /* DSC_0383.jpg in Resources */,
 				B564E98319D1E0F300DB1585 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
